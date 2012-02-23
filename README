@@ -1,0 +1,11 @@
+Flac to mp3 v0 converter script
+
+This script was created to make it easy to convert flac files
+to mp3 v0 files over the command line.  Its usage mimics that of
+cp, by allow 1 or many source files, and a destination.
+
+If 2 or more source files are found, the destination argument must
+be a directory.  If one source file is given, the second argument
+will be used as the name of the output file, unless it is a directory,
+in which case the output file will be the same as the input with the
+original extension stripped and the flac extension used.
