@@ -10,15 +10,15 @@ cp, by allow 1 or many source files, and a destination.
 Usage
 =====
 
-Usage: flactov0 SOURCE DEST
-Usage: flactov0 SOURCE... DIRECTORY
+    Usage: flactov0 SOURCE DEST
+    Usage: flactov0 SOURCE... DIRECTORY
 
-Source is a flac file and dest is the destination
-file or folder.
+    Source is a flac file and dest is the destination
+    file or folder.
 
-Source can be 1 or more flac files, if multiple
-sources are present the final argument must
-be the destination directory.
+    Source can be 1 or more flac files, if multiple
+    sources are present the final argument must
+    be the destination directory.
 
 Examples
 ========
