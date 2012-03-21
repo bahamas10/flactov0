@@ -23,6 +23,5 @@ be the destination directory.
 Examples
 ========
 
-
     ~$ flactov0 mysong.mp3 mysong.flac
     ~$ flactov0 *.mp3 folder_for_flac/
