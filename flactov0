@@ -6,12 +6,13 @@
 # Author: Dave Eddy <dave@daveeddy.com>
 # Date: 1/1/2012
 
+req_programs=('flac' 'metaflac' 'lame')
+
 # check_required_programs()
 #
 # Check for the programs required
 # return 0 if programs are available or a 1 if not.
 check_required_programs() {
-	req_programs=('flac' 'metaflac' 'lame')
 	ret=0
 	for prog in "${req_programs[@]}"; do
 		if ! "$prog" --help &>/dev/null; then
