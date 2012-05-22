@@ -24,4 +24,4 @@ Examples
 ========
 
     ~$ flactov0 mysong.flac mysong.mp3
-    ~$ flactov0 *.mp3 folder_for_flac/
+    ~$ flactov0 *.flac folder_for_v0_rips/
